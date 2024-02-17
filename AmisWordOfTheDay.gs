@@ -14,7 +14,7 @@ function notifyDailyWord() {
     var wordRow = notNotifiedWords[randomIndex];
 
     // 建構族語之火合成服務的URL
-    var audioUrl = "https://hts.ithuan.tw/文本直接合成?查詢腔口=Pangcah&查詢語句=" + encodeURIComponent(wordRow[2]);
+    var audioUrl = "https://hts.ithuan.tw/%E6%96%87%E6%9C%AC%E7%9B%B4%E6%8E%A5%E5%90%88%E6%88%90?%E6%9F%A5%E8%A9%A2%E8%85%94%E5%8F%A3=Pangcah&%E6%9F%A5%E8%A9%A2%E8%AA%9E%E5%8F%A5=" + encodeURIComponent(wordRow[2]);
 
 
 // 打印或检查生成的URL
